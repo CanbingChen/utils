@@ -1,3 +1,4 @@
+
 const createEventHub = () => ({
   hub: Object.create(null),
   emit(event, data) {

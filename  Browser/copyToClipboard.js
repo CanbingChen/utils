@@ -1,3 +1,4 @@
+//复制在粘贴板
 const copyToClipboard = str => {
   const el = document.createElement('textarea');
   el.value = str;
