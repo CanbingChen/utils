@@ -5,3 +5,4 @@ export const groupBy = (arr,att) => arr.map(typeof att === 'function'?att:(item)
   obj[val] = (obj[val] || []).concat(arr[i])
   return obj
 },{})
+

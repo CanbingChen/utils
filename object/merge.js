@@ -1,5 +1,5 @@
 import forEach from './forEach'
-export const merge = function merge(/* obj1, obj2, obj3, ... */) {
+export const merge = function merge() {
   var result = {};
   function assignValue(val, key) {
     if (typeof result[key] === 'object' && typeof val === 'object') {
