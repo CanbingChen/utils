@@ -5,7 +5,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style":"eslint *.js"
+    "style": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   "homepage": "https://github.com/CanbingChen/utils#readme",
   "devDependencies": {
     "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.10.0"
+    "eslint-plugin-import": "^2.10.0",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^3.0.4"
   }
 }
